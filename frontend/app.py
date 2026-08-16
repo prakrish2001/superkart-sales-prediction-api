@@ -53,4 +53,4 @@ if st.button("Predict", type="primary"):
         st.success(f"Predicted Product Sales Total: {round(prediction, 2)}")
     else:
         st.error(f"Error: {response.status_code}. Unable to connect to the prediction API.")
-"""        
+      
